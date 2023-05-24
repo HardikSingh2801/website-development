@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form > 
+        <h2>Job Application</h2>
+
+        <label for="name">Name:</label> <br>
+        <input type="text" name="Name" id="name">
+
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+        <label for="tel">Phone:</label><br>
+        <input type="tel" name="contact" id="tel">
+
+        <br><br>
+        <label for="file">Select File</label><br>
+        <input type="file" name="choose file" id="file">
+
+        <br><br>
+        <label for="rng">Experince:</label><br>
+        <input type="number" name="Experince" id="Experince" min="0" max="10">
+
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" name="html" id="html"><br>
+            <label for="html">Html</label>
+
+            <br><br>
+            <input type="checkbox" name="css" id="CSS"><br>
+            <label for="CSS">CSS</label>
+
+            <br><br>
+            <input type="checkbox" name="JavaScript id="JavaScript><br>
+            <label for="JavaScript">JavaScript</label>
+        </fieldset>
+
+        <br><br>
+
+        <label for="edu">Highest Education:</label><br>
+        <select name="Education" id="edu">
+            <option value="High School">Graduation</option>
+            <option value="College">Post Graduation</option>
+        </select>
+
+        <br><br>
+        <p>Availiblity:</p>
+        <!-- <input type="radio" name="part-time"  id="opt1" value="Part time"> 
+        <label for="opt1">Part-Time</label>
+
+        <br><br>
+        <input type="radio" name="Full-time"  id="opt2" value="Full time"> 
+        <label for="opt2">Full-Time</label> -->
+
+       <input type="radio" name="job" id="part-time" value="Part-Time">
+       <label for="part-time">Part-Time</label>
+
+       <BR></BR>
+       <input type="radio" name="job" id="Full-time" value="Full-Time">
+       <label for="Full-time"> Full-Time</label><br><br>
+
+       <label for="txtar">Additional Comments:</label><br>
+       <textarea name="text cmt" id="txtar" cols="30" rows="10" ></textarea>
+
+
+       <br><br>
+       <input type="submit" value="Submit Application">
+    
+    </form>
+
+
+    
+</body>
+</html>
