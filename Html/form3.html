@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Complex Form</h1>
+
+    <fieldset>
+        <legend>Personal Infrormation</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" name="Name" id="name">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="phn">Phone:</label>
+        <input type="tel" name="Phone" id="phn">
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="DOB" id="dob">
+
+        <p>Gender:</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+
+        <BR></BR>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="UK">UK</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <label for="adrs">Address Street</label>
+            <input type="text" name="address" id="adrs">
+
+            <label for="city">City:</label>
+            <select name="city" id="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Kolkata">Kolkata</option>
+            </select>
+
+            <label for="State">State:</label>
+            <select name="State" id="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Maharashtra">Maharshtra</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Punjab">Punjab</option>
+                <option value="West Bengal">West Bengal</option>
+            </select>
+
+            <label for="zipcode">Zipcode</label>
+            <input type="number" name="zipcode" id="zipcode">
+        </legend>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Information </legend>
+
+            <label for="txt">Comments :</label><br>
+            <textarea name="txt" id="txt" cols="30" rows="10" placeholder="Enter your Text"></textarea>
+
+            <label for="agree">I agree to the terms</label>
+            <input type="checkbox" name="agreement" id="agree">
+   </fieldset>
+
+   <label for="submit"></label>
+   <input type="submit" value="Submit">
+</body>
+</html>
