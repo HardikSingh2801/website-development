@@ -1,0 +1,12 @@
+p, h1{
+    color: darkorchid;
+}
+
+a{
+    color: darksalmon;
+}
+
+li{
+    
+    list-style-type: square;
+}
