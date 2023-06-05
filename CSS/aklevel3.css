@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    background-color: rgb(255, 142, 223);
+    width:100px;
+
+    border-width: 2px;
+    border-style:solid;
+    border-color: rgb(132, 2, 2);
+
+    padding: 20px 40px 20px 40px;
+    margin-top:20px;  
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+h1{
+    background-color: rgba(77, 202, 244, 0.721);
+
+    border: 2px solid crimson;
+}
+
+.div{
+    height: 100px;
+    width: 100px;
+
+    background-color: greenyellow;
+    border-radius: 50%;
+}
