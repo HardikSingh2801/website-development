@@ -1,0 +1,27 @@
+h1{
+    color: rgb(54, 54, 255);
+
+    background-color: blanchedalmond;
+}
+
+#p1{
+    font-size:35px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    background-color:cornsilk;
+}
+
+#p2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(196, 242, 165);
+}
+
+body{
+    background-color: lightslategrey;
+}
+
+button{
+    size: 90px;
+    background-color: rgb(244, 70, 105);
+    color: white ;
+}
