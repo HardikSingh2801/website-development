@@ -17,7 +17,7 @@
     margin-left: 10%;
 } */
 
-div{
+/* div{
     background-color: rgb(175, 251, 225);
 
     height: 100px;
@@ -25,9 +25,9 @@ div{
 
     border: 2px solid black;
     display: inline-block;
-}
+} */
 
-#box1{
+/* #box1{
 
     position: static;
 }
@@ -51,4 +51,26 @@ div{
     position:fixed ;
     bottom: 0px;
     right :10px;
+} */
+
+
+/* #box1  {
+
+background-image: url("aklvl3.jpeg");
+background-size: cover;
+} */
+
+
+div{
+
+    height: 100px;
+    width: 100px;
+    color: white;
+
+    top:50px;   
+    position: fixed ;
+    right: 0PX;
+
+    background-image: url("ak.jpg");
+    background-size: cover;
 }
