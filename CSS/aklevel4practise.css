@@ -1,0 +1,36 @@
+.navbar{
+    background-color: rgb(224, 139, 173);
+    display: flex;
+    justify-content: space-evenly;
+  
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(200, 73, 73);
+  
+}
+
+li{
+    list-style-type: none;
+
+    background-color: rgb(254, 254, 254)   ;
+    
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: magenta;
+
+}
