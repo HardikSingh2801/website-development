@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     background-color: rgb(224, 139, 173);
     display: flex;
     justify-content: space-evenly;
@@ -33,4 +33,38 @@ li{
     width: 100px;
     background-color: magenta;
 
+} */
+
+div{
+
+    height: 50px;
+    width: 50px;
+
+    background-color: pink;
 }
+
+@media (max-width:300px){
+    div{
+        background-color: rgb(105, 223, 98);
+    }
+}
+
+@media (min-width:300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    div{
+        background-color: red;
+    }
+}
+
+@media (min-width:600px){
+    div{
+        background-color: rgb(56, 97, 233);
+    }
+}
+
+
