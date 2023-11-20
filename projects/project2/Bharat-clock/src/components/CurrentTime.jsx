@@ -1,0 +1,9 @@
+// eslint-disable-next-line react-refresh/only-export-components, no-unused-vars
+let CurrentTime = ()=>{
+
+    let time = new Date();
+    return <p className="lead">This is the current time :{time.toLocaleDateString()}- {time.toLocaleTimeString()} </p>
+    
+};
+
+export default CurrentTime;
