@@ -10,7 +10,8 @@ import { useState } from 'react';
 
 function App() {
 
-  const [selectedTab, setSelectedTab]= useState("Home");
+  const [selectedTab, setSelectedTab] = useState("Home");
+
 
   return (
     
